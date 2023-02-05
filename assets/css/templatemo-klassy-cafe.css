@@ -187,12 +187,12 @@ body {
 }
 
 ::selection {
-  background: #ea8e4d;
+  background: #e6782c;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #ea8e4d;
+  background: #e6782c;
   color: #fff;
 }
 
@@ -215,7 +215,7 @@ body {
 
 .main-white-button a {
   font-size: 13px;
-  color: #ea8e4d;
+  color: #e6782c;
   background-color: #fff;
   padding: 12px 25px;
   display: inline-block;
@@ -240,13 +240,15 @@ body {
 }
 
 .section-heading h6 {
+  font-weight: bold !important;
   position: relative;
-  font-size: 15px;
-  color: #ea8e4d;
+  font-size: 20px;
+  color: #1c191a;
   font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase;
   padding-left: 40px;
+  margin-top: 20px;
 }
 
 .section-heading h6:before {
@@ -256,7 +258,7 @@ body {
   position: absolute;
   left: 0;
   top: 8px;
-  background-color: #ea8e4d;
+  background-color: #1c191a;
 }
 
 .section-heading h2 {
@@ -290,11 +292,11 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #ea8e4d !important;
+  color: #e6782c !important;
 }
 
 .background-header .nav li a.active {
-  color: #ea8e4d !important;
+  color: #e6782c !important;
 }
 
 .header-area {
@@ -383,12 +385,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #ea8e4d !important;
+  color: #e6782c !important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #ea8e4d !important;
+  color: #e6782c !important;
   opacity: 1;
 }
 
@@ -451,7 +453,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #ea8e4d !important;
+  color: #e6782c !important;
   padding-left: 25px;
 }
 
@@ -591,7 +593,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #ea8e4d;
+  color: #e6782c;
 }
 
 @media (max-width: 1200px) {
@@ -610,7 +612,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #ea8e4d !important;
+    color: #e6782c !important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -668,7 +670,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #ea8e4d !important;
+    color: #e6782c !important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -726,7 +728,8 @@ banner
 }
 
 #top .left-content {
-  background-image: url(../images/top-left-bg.jpg);
+  /* background-image: url(../images/top-left-bg.jpg); */
+  background-color: #e6782c;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -745,17 +748,23 @@ banner
 #top .left-content h4 {
   /* font-family: "Dancing Script", cursive; */
   color: #fff;
-  font-size: 35px;
+  font-size: 22px;
   font-weight: 700;
+  text-align: start;
 }
 
 #top .left-content h6 {
+  display: flex;
+  justify-content: flex-start;
   font-size: 15px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 600;
   color: #fff;
-  letter-spacing: 3px;
   margin-top: 5px;
+}
+
+#top .left-content h6 a i {
+  color: #fff;
 }
 
 #top .left-content .main-white-button {
@@ -830,7 +839,7 @@ banner
   right: 30px;
   width: 50px;
   height: 50px;
-  background-color: #ea8e4d;
+  background-color: #e6782c;
   border: 0 none;
   line-height: 44px;
   border-radius: 50%;
@@ -859,7 +868,7 @@ banner
   left: 30px;
   width: 50px;
   height: 50px;
-  background-color: #ea8e4d;
+  background-color: #e6782c;
   border: 0 none;
   line-height: 44px;
   border-radius: 50%;
@@ -1011,7 +1020,7 @@ about
   display: inline-block;
   line-height: 70px;
   text-align: center;
-  background-color: #ea8e4d;
+  background-color: #e6782c;
   color: #fff;
   border-radius: 50%;
   transform: translate(-35px, -35px);
@@ -1067,8 +1076,8 @@ menu
 .info {
   position: relative;
   width: 100%;
-  background-color: #ea8e4d;
-  border: 1px solid #ea8e4d;
+  background-color: #e6782c;
+  border: 1px solid #e6782c;
   transform: translateY(100%) translateY(120px) translateZ(0);
   transition: transform 0.5s ease-out;
 }
@@ -1081,7 +1090,7 @@ menu
 .title {
   margin: 0;
   padding: 30px 30px 20px 30px;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 700;
   color: #fff;
 }
@@ -1095,7 +1104,7 @@ menu
   position: absolute;
   width: 70px;
   height: 70px;
-  background-color: #ea8e4d;
+  background-color: #e6782c;
   font-size: 20px;
   font-weight: 700;
   color: #fff;
@@ -1174,7 +1183,7 @@ menu
 #menu .owl-nav .owl-next:before {
   display: inline-block;
   font-family: "FontAwesome";
-  color: #ea8e4d;
+  color: #e6782c;
   font-size: 25px;
   font-weight: 700;
   content: "\f105";
@@ -1214,11 +1223,11 @@ chefs
 }
 
 #chefs .chef-item:hover {
-  border-color: #ea8e4d;
+  border-color: #e6782c;
 }
 
 #chefs .chef-item:hover .down-content h4 {
-  color: #ea8e4d;
+  color: #e6782c;
 }
 
 #chefs .chef-item .thumb {
@@ -1275,7 +1284,7 @@ chefs
 }
 
 #chefs .chef-item .thumb ul.social-icons li a:hover {
-  background-color: #ea8e4d;
+  background-color: #e6782c;
 }
 
 #chefs .chef-item:hover .overlay {
@@ -1357,7 +1366,7 @@ reservation
   text-align: center;
   line-height: 70px;
   color: #fff;
-  background-color: #ea8e4d;
+  background-color: #e6782c;
   border-radius: 50%;
   font-size: 24px;
   margin-top: -35px;
@@ -1383,7 +1392,7 @@ reservation
 
 #reservation.phone span a:hover,
 #reservation.message span a:hover {
-  color: #ea8e4d;
+  color: #e6782c;
 }
 
 #contact {
@@ -1429,14 +1438,14 @@ reservation
 .contact-form input:focus,
 .contact-form textarea:focus,
 .contact-form select:focus {
-  border-color: #ea8e4d;
+  border-color: #e6782c;
 }
 
 .contact-form button {
   margin-top: -10px;
   font-size: 13px;
   color: #fff;
-  background-color: #ea8e4d;
+  background-color: #e6782c;
   padding: 12px 25px;
   width: 100%;
   box-shadow: none;
@@ -1530,7 +1539,7 @@ offers
   margin: 0 auto 15px auto;
 }
 #offers #tabs ul .ui-tabs-active a {
-  color: #ea8e4d;
+  color: #e6782c;
   position: relative;
 }
 #offers #tabs ul .ui-tabs-active span {
@@ -1548,22 +1557,32 @@ offers
 }
 #offers .tabs-content img {
   float: left;
-  width: 70px;
+  width: 60px;
   max-width: 100px;
   margin-right: 20px;
   border-radius: 5px;
 }
 #offers .tabs-content h4 {
   padding-top: 10px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   color: #2a2a2a;
   margin-bottom: 10px;
   margin-right: 100px;
 }
-
+#offers .tabs-content .tab-item i {
+  font-size: 8px;
+}
+#offers .tabs-content .tab-item b {
+  font-size: 8px;
+}
+.price i {
+  font-size: 11px !important;
+}
 #offers .tabs-content p {
   margin-right: 100px;
+  margin-top: -10px;
+  margin-left: 65px;
 }
 
 #offers .tabs-content .left-list {
@@ -1576,16 +1595,19 @@ offers
 
 #offers .tabs-content .price h6 {
   position: absolute;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
   top: 15px;
   right: 0;
-  width: 70px;
-  height: 70px;
-  background-color: #ea8e4d;
+  width: 50px;
+  height: 40px;
+  background-color: #e6782c;
   display: inline-block;
   text-align: center;
   line-height: 70px;
   border-radius: 3px;
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 700;
   color: #fff;
 }
@@ -1607,7 +1629,11 @@ footer .left-text-content p {
   margin-top: 5px;
   color: rgb(0, 0, 0);
   font-size: 14px;
-  text-align: right;
+  text-align: end;
+}
+footer .left-text-content p i {
+  margin-right: 10px;
+  font-size: 18px !important;
 }
 
 footer .right-text-content p {
@@ -1643,8 +1669,8 @@ footer .right-text-content ul li a {
   font-size: 20px;
   background-color: #fff;
   border-radius: 50%;
-  border: 2px solid #ea8e4d;
-  color: #ea8e4d;
+  border: 2px solid #e6782c;
+  color: #e6782c;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
@@ -1718,7 +1744,7 @@ responsive
 
 #preloader {
   overflow: hidden;
-  background-color: #ea8e4d;
+  background-color: #e6782c;
   left: 0;
   right: 0;
   top: 0;
@@ -1793,4 +1819,8 @@ responsive
   100% {
     opacity: 0;
   }
+}
+
+body {
+  font-family: "Palatino Linotype", sans-serif !important;
 }

@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: "Merriweather", serif;
+  font-family: palatino linotype;
   font-size: 18px;
   font-weight: 300;
   line-height: 2;
@@ -389,11 +389,11 @@ p {
 }
 
 .fh5co-heading .heading {
-  font-size: 30px;
-  font-style: italic;
+  font-size: 22px;
+  /* font-style: italic; */
   position: relative;
   padding-bottom: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading .heading {
@@ -578,7 +578,7 @@ p {
 }
 
 #fh5co-featured {
-  padding: 50px 0;
+  padding: 0px 0 30px;
   /* background: #130d08 url(../images/wood_1.png) repeat; */
 }
 @media screen and (max-width: 768px) {
@@ -591,7 +591,7 @@ p {
   padding-top: 30px !important;
   color: #fff;
 }
-#fh5co-featured .fh5co-heading .heading:before,
+/* #fh5co-featured .fh5co-heading .heading:before,
 #fh5co-featured .fh5co-heading .heading::before {
   height: 64px;
   width: 64px;
@@ -602,7 +602,7 @@ p {
   left: 50%;
   margin-top: -50px;
   margin-left: -32px;
-}
+} */
 #fh5co-featured .fh5co-heading .sub-heading {
   color: #a99c92;
 }
@@ -1459,7 +1459,7 @@ p {
 }
 
 .row-padded {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 /* lastest code */
@@ -1473,13 +1473,17 @@ p {
 
 .icon-container {
   border: 1px solid white;
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+}
+
+.fh5co-type h3 {
+  font-size: 18px !important;
 }
 
 .stubborn {
@@ -1489,7 +1493,7 @@ p {
 .see-more {
   display: block;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 20px;
   border: 1px solid rgb(251, 110, 20);
   width: 120px;
   height: 50px;
@@ -1507,8 +1511,8 @@ p {
 }
 
 .more-menu {
-  width: 150px;
-  height: 50px;
+  width: 100px;
+  height: 40px;
   padding: 8px 15px;
   /* background-color: rgb(251, 110, 20); */
   color: white;
@@ -1516,6 +1520,7 @@ p {
   text-align: center;
   margin: auto;
   display: block;
+  font-size: 12px;
   background-color: rgb(28 25 26);
 }
 
@@ -1546,15 +1551,15 @@ p {
   text-align: center;
   /* margin: auto; */
   /* width: 120px; */
-  padding: 4px 15px;
+  padding: 2px 8px;
   height: 40px;
-  font-size: 20px;
   text-transform: capitalize;
   border-radius: 4px;
 }
 .menu-text button a {
   color: white;
-  font-size: 20px;
+  font-size: 12px;
+  font-weight: bold;
   text-transform: capitalize;
 }
 .menu-text button:hover {
@@ -1563,10 +1568,13 @@ p {
 .per-menu h3 {
   height: 60px;
   margin-top: 20px;
-  font-size: 20px;
+  font-size: 17px;
   text-align: center;
+  width: 90%;
 }
-
+.per-menu h3 select {
+  max-width: 117px;
+}
 .new-menu {
   margin-bottom: 50px;
 }
@@ -1579,7 +1587,7 @@ p {
 }
 .price-button h5 {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .price-button i {
@@ -1612,20 +1620,22 @@ p {
 }
 .phone i,
 .message i {
-  color: #ea8e4d;
-  border: 1px solid #ea8e4d;
+  color: #e6782c;
+  border: 1px solid #e6782c;
   padding: 10px;
   border-radius: 50%;
   margin-bottom: 10px;
 }
-
+.sub-heading {
+  text-align: center;
+}
 .sub-heading button {
   border: none;
   text-align: center;
-
-  margin-left: 10px;
+  font-size: 10px;
+  margin-left: 0px;
   padding: 5px 10px;
-  background-color: #ea8e4d;
+  background-color: #1c191a;
 }
 
 .sub-heading button a {
@@ -1663,7 +1673,7 @@ p {
   background-color: rgb(28 25 26) !important;
 }
 #complete-order:hover {
-  background-color: #ea8e4d !important;
+  background-color: #e6782c !important;
 }
 /* responsive  */
 @media screen and (max-width: 992px) {
@@ -1716,7 +1726,7 @@ p {
   }
 
   #offers .tabs-content h4 {
-    font-size: 15px !important;
+    font-size: 18px !important;
   }
 
   #offers .tabs-content p i {
@@ -1739,7 +1749,124 @@ p {
 
 #offers .section-heading h6 {
   margin-top: 10px !important;
+  padding-top: 15px;
+  margin-bottom: 10px;
 }
 #offers .section-heading {
   margin-bottom: 0px !important;
+}
+
+#ch::before {
+  color: #e6782c !important;
+  background-color: #e6782c;
+}
+
+.container ol li {
+  display: flex;
+}
+
+.container ol i {
+  color: white !important;
+  margin-right: 10px;
+}
+.container ol li {
+  margin-bottom: 20px;
+}
+
+.address-icon {
+  color: #e6782c !important;
+  font-size: 12px !important;
+}
+
+#top .left-content h6 i {
+  margin-right: 10px;
+  margin-top: 2px;
+}
+
+.none {
+  display: none !important;
+}
+
+#menu .price h6 {
+  display: none !important;
+}
+
+.offers {
+  /* background-color: #e2e2e263 !important; */
+  width: 80% !important;
+}
+
+@media screen and (max-width: 700px) {
+  .offers {
+    width: 100% !important;
+  }
+  #offers .tabs-content h4 {
+    font-size: 11px !important;
+  }
+  #offers .tabs-content img {
+    width: 40px !important;
+  }
+}
+
+.pricey {
+  background-color: #e7e7e7a1;
+  padding: 20px 5px 0px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  height: 120px;
+}
+
+#rice .col-lg-12 {
+  margin-bottom: 10px;
+  background-color: #e7e7e7a1;
+  height: 120px;
+  padding: 20px 5px 0px;
+}
+
+#yam .tabs-content .row .col-lg-12 .row .col-lg-12 {
+  margin-bottom: 10px;
+  background-color: #e7e7e7a1;
+  height: 120px;
+  padding: 20px 5px 0px;
+}
+
+#beans .tabs-content .row .col-lg-12 .row .col-lg-12 {
+  margin-bottom: 10px;
+  background-color: #e7e7e7a1;
+  height: 120px;
+  padding: 20px 5px 0px;
+}
+
+#lunch .tabs-content .row .col-lg-12 .row .col-lg-12 {
+  margin-bottom: 10px;
+  background-color: #e7e7e7a1;
+  height: 120px;
+  padding: 20px 10px 0px;
+}
+
+#drink .tabs-content .row .col-lg-12 .row .col-lg-12 {
+  margin-bottom: 10px;
+  background-color: #e7e7e7a1;
+  height: 120px;
+  padding: 20px 10px 0px;
+}
+#extra .tabs-content .row .col-lg-12 .row .col-lg-12 {
+  margin-bottom: 10px;
+  background-color: #e7e7e7a1;
+  height: 120px;
+  padding: 20px 10px 0px;
+}
+
+#swallow .tabs-content .row .col-lg-12 .row .col-lg-12 {
+  margin-bottom: 10px;
+  background-color: #e7e7e7a1;
+  height: 120px;
+  padding: 20px 10px 0px;
+}
+
+#pasta .tabs-content .row .col-lg-12 .row .col-lg-12 {
+  margin-bottom: 10px;
+  background-color: #e7e7e7a1;
+  height: 120px;
+  padding: 20px 10px 0px;
 }
