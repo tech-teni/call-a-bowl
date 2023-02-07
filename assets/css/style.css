@@ -1730,7 +1730,7 @@ p {
   }
 
   #offers .tabs-content p i {
-    font-size: 9px !important;
+    font-size: 15px !important;
   }
 
   #offers .tabs-content p b {
@@ -1860,7 +1860,7 @@ p {
 #swallow .tabs-content .row .col-lg-12 .row .col-lg-12 {
   margin-bottom: 10px;
   background-color: #e7e7e7a1;
-  height: 120px;
+  height: 152px;
   padding: 20px 10px 0px;
 }
 
@@ -1869,4 +1869,12 @@ p {
   background-color: #e7e7e7a1;
   height: 120px;
   padding: 20px 10px 0px;
+}
+
+.section-heading #hello:before {
+  background-color: white !important;
+}
+
+.obey {
+  margin-left: 12% !important;
 }

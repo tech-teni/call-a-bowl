@@ -1571,7 +1571,8 @@ offers
   margin-right: 100px;
 }
 #offers .tabs-content .tab-item i {
-  font-size: 8px;
+  font-size: 15px;
+  /* font-weight: bold; */
 }
 #offers .tabs-content .tab-item b {
   font-size: 8px;
