@@ -1878,3 +1878,9 @@ p {
 .obey {
   margin-left: 12% !important;
 }
+
+.line {
+  width: 10px;
+  height: 10px;
+  color: black;
+}
